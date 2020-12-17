@@ -1,0 +1,12 @@
+spring:   
+  application:
+    name: orderService
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://us-south.appid.cloud.ibm.com/oauth/v4/d45e06da-d9e7-40ee-8949-2ff63336f552/publickeys
+
+    
+server:
+  port: 8201
